@@ -47,14 +47,14 @@ if (global.db) global.db.data = {
 }
 
 function title() {
-    console.log(chalk.bold.green(figlet.textSync('Haruka Bot', {
+    console.log(chalk.bold.green(figlet.textSync('𝐒𝐚𝐘𝐮 𝐁𝐨𝐓 𝐌𝐃', {
         font: 'Standard',
         horizontalLayout: 'default',
         verticalLayout: 'default',
         width: 80,
         whitespaceBreak: false
     })))
-    console.log(chalk.yellow(`\n${chalk.yellow('Created By Zeeone Ofc')}\n`))
+    console.log(chalk.yellow(`\n${chalk.yellow('Created By 𝐌𝐑.𝐑𝐚𝐯𝐢𝐗')}\n`))
 }
 
     const haruka = harukaConnect({
@@ -101,7 +101,7 @@ function title() {
     
     haruka.ev.on('group-participants.update', async (anu) => {
         const { welcome } = require ('./lib/welcome')
-        welcome(haruka, anu)
+        welcome(𝐒𝐚𝐘𝐮 𝐁𝐨𝐓 𝐌𝐃, 𝐌𝐑𝐑𝐚𝐯𝐢𝐗)
     })
 	
     // Setting
@@ -205,7 +205,7 @@ haruka.sendButLoc = async (jid , text = '' , footer = '', lok, but = [], ments =
     caption: text,
     footer: footer,
     buttons: but,
-    headerType: 'LOCATION'
+    headerType: 'KALUTHARA'
 }
  haruka.sendMessage(jid, buttonMessage, options)
       }
